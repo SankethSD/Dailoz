@@ -226,6 +226,17 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
+		8C4DF6B729E3F00400F4EEB3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8C21AF8F29D43EC300A2BD27 /* Task */,
+				8CEE294729D1820100488F00 /* Profile */,
+				8C18C1ED29CD7A8E001490DD /* Home */,
+				8C18C1DD29CADA9F001490DD /* Login */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		8C5E1D8C29D2AAFA00419D46 /* CreateBoard */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,15 +283,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8F532B9C29C9CF8E0071133C /* ViewController */ = {
+		8F532B9C29C9CF8E0071133C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8C21AF8F29D43EC300A2BD27 /* Task */,
-				8CEE294729D1820100488F00 /* Profile */,
-				8C18C1ED29CD7A8E001490DD /* Home */,
-				8C18C1DD29CADA9F001490DD /* Login */,
+				8CEE294329D1783B00488F00 /* Cells */,
+				8C21AF9429D4B75A00A2BD27 /* PopUpViews */,
+				8C4DF6B729E3F00400F4EEB3 /* ViewController */,
 			);
-			path = ViewController;
+			path = View;
 			sourceTree = "<group>";
 		};
 		8F532B9D29C9CF9B0071133C /* ViewModel */ = {
@@ -294,7 +304,6 @@
 			isa = PBXGroup;
 			children = (
 				8FE3C2BA29C9BF0E0038EDAD /* Assets.xcassets */,
-				8FE3C2BC29C9BF0E0038EDAD /* LaunchScreen.storyboard */,
 				8FE3C2BF29C9BF0E0038EDAD /* Info.plist */,
 			);
 			path = Resources;
@@ -304,6 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				8FE3C2B729C9BF0B0038EDAD /* Main.storyboard */,
+				8FE3C2BC29C9BF0E0038EDAD /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -342,11 +352,9 @@
 				8FE3C2B329C9BF0B0038EDAD /* SceneDelegate.swift */,
 				8C18C1E829CD695C001490DD /* ExtensionFiles */,
 				8F96B31429CAC5F5000DBC4C /* CustomViews */,
-				8CEE294329D1783B00488F00 /* Cells */,
 				8F532B9B29C9CF7D0071133C /* Model */,
+				8F532B9C29C9CF8E0071133C /* View */,
 				8F532B9D29C9CF9B0071133C /* ViewModel */,
-				8F532B9C29C9CF8E0071133C /* ViewController */,
-				8C21AF9429D4B75A00A2BD27 /* PopUpViews */,
 				8F532B9F29C9CFED0071133C /* Storyboard */,
 				8F532B9E29C9CFCB0071133C /* Resources */,
 			);
